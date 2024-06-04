@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="input"> <span>Enter hidden number: </span> 
+            <input type="password" id="playerone" class="selectednumber" placeholder="Player 1">
+            <input type="password" id="playertwo" class="selectednumber" placeholder="Player 2">
+            <button id="savebutton" class="savebuttons" value="save">Save</button>
+            <div id="condition" style="color: #646464; padding-top:5px ;">Enter number between 1 to 15</div>
+        </div>
+        <div class="player">
+            <div class="playerdiv" id="playeronetext">Player 1</div>
+            <div class="playerdiv" id="playertwotext">Player 2</div>
+        </div>
+        <div class="buttongroup">
+            <div id="firstfive"> <button class="buttons" value="1">1</button> <button class="buttons"
+                    value="2">2</button> <button class="buttons" value="3">3</button> <button class="buttons"
+                    value="4">4</button> <button class="buttons" value="5">5</button> </div>
+            <div id="middlefive"> <button class="buttons" value="6">6</button> <button class="buttons"
+                    value="7">7</button> <button class="buttons" value="8">8</button> <button class="buttons"
+                    value="9">9</button> <button class="buttons" value="10">10</button> </div>
+            <div id="lastfive"> <button class="buttons" value="11">11</button> <button class="buttons"
+                    value="12">12</button> <button class="buttons" value="13">13</button> <button class="buttons"
+                    value="14">14</button> <button class="buttons" value="15">15</button> </div>
+        </div>
+        <div class="result" id="result"></div>
+        <div class="result1" id="result"></div>
+        <button id="restartbutton" class="restartbutton" value="restart">Restart</button>
+    </div>
+    <script src="myjs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #212121;
+}
+
+.buttons,
+.restartbutton,
+.savebuttons{
+    background-color: #414141;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 2px;
+    border-radius: 8px;
+}
+.active{
+    background-color: #212121 !important;
+
+}
+.player {
+    background-color: #515151;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.playerdiv{
+    background: #515151;
+    padding: 10px 100px;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.buttons:active {
+    background-color: #212121;
+}
+
+.buttongroup {
+    background-color: #515151;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 0 2px;
+}
+
+span {
+    color: #fff;
+    font-size: 23px;
+    font-family: cursive;
+}
+
+#restartbutton,
+#savebutton {
+    margin: 10px;
+}
+
+.result,.result1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
